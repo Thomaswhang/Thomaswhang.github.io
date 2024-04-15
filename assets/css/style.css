@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 :root{
-    --color-body: red;
-    --color-heading: green;
-    --color-base: red;
-    --color-base2: green;
-    --color-brand: red;
-    --color-brand2: green;
+    --color-body: rgb(0, 0, 0);
+    --color-heading: rgb(158, 75, 75);
+    --color-base: rgb(82, 43, 43);
+    --color-base2: rgb(0, 0, 0);
+    --color-brand: rgb(163, 49, 49);
+    --color-brand2: rgb(0, 0, 0);
     --sidebar-width: 240px;
     --font-base: "Dancing Script";
 }
@@ -33,4 +33,15 @@ a:hover{
 
 img{
     width: 100%;
+}
+
+/*NAVBAR*/
+@media (min-width: 992px){
+.navbar{
+    min-height: 100vh;
+    width: var(--sidebar-width);
+    background: linear-gradient(red, red) url();
+    background-size: cover;
+    background-position: center;
+}
 }
