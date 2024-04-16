@@ -1,27 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-:root{
-    --color-body: rgb(0, 0, 0);
-    --color-heading: rgb(158, 75, 75);
-    --color-base: rgb(82, 43, 43);
-    --color-base2: rgb(0, 0, 0);
-    --color-brand: rgb(163, 49, 49);
-    --color-brand2: rgb(0, 0, 0);
-    --sidebar-width: 240px;
-    --font-base: "Dancing Script";
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #033f47;
+    --color-base2: #022a30;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --sidbar-width: 240px;
+    --font-base: "Dancing Script"
 }
 
-body{
+body {
+    background-color: #022a30;
     background-color: var(--color-base2);
     color: var(--color-body);
-    font-family: var(--font-base), sans-serif;
-}
+    font-family: var(--font-base);
+} 
 
-h1,h2,h3,h4,h5,h6 {
-    color: var(--color-heading);
-    font-weight: 700;
-}
-
-a{
+a {
     text-decoration: none;
     color: var(--color-body);
     transition: all 0.4s ease;
@@ -33,15 +30,4 @@ a:hover{
 
 img{
     width: 100%;
-}
-
-/*NAVBAR*/
-@media (min-width: 992px){
-.navbar{
-    min-height: 100vh;
-    width: var(--sidebar-width);
-    background: linear-gradient(red, red) url();
-    background-size: cover;
-    background-position: center;
-}
 }
