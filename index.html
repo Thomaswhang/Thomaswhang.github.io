@@ -12,108 +12,115 @@
 
 </head>
 
-<body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container flex-lg-column">
-            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none ">Thomas Wang</span>
-                <img src="/assets/images/dark souls.gif" class="d-none d-lg-block rounded-circle" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-                    <!--HOME-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-    </nav>
-    <!--//NAVBAR-->
+<body data-bs-spy="scroll" data-bs-target=".navbar"></body>>
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+            <span class="h3 fw-bold d-block d-lg-none ">Thomas Wang</span>
+            <img src="/assets/images/dark souls.gif" class="d-none d-lg-block rounded-circle" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                <!--HOME-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+</nav>
+<!--//NAVBAR-->
 
-    <!--CONTENT WRAPPER-->
-    <div id="content-wrapper">
+<!--CONTENT WRAPPER-->
+<div id="content-wrapper">
 
-        <!--HOME-->
-        <section id="home" class="full-height px-lg-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h1 class="display-4 fw-bold">I'm a <span class="text-brand">software developer</span>, <br>
-                            Delft, Netherlands</h1>
-                        <p class="lead mt-2 mb-4">I am Thomas Wang, and I study Software development <br> ROC Mondriaan.
-                        </p>
+    <!--HOME-->
+    <section id="home" class="full-height px-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <h1 class="display-4 fw-bold" data-aos="fade-up">I'm a <span class="text-brand">software
+                            developer</span>, <br>
+                        Delft, Netherlands</h1>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Thomas Wang, and I study
+                        Software development <br> ROC Mondriaan.
+                    </p>
+                    <div data-aos="fade-up" data-aos-delay="600">
                         <a href="#projects" class="btn btn-brand me-3">Explore my work</a>
                         <a href="#" class="link-custom">Contact me</a>
                     </div>
                 </div>
             </div>
-
-        </section>
-        <!--//HOME-->
-        <!--PROJECTS-->
-        <section id="projects" class="full-height px-lg-5">
-            <div class="container">
-                <div class="row pb-4">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">PROJECTS</h6>
-                        <h1>My projects</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="projects p-4 bg-base rounded-4 shadow-effect">
-                        <div class="iconbox rounded-3">
-                            <i class="las la-arrows-alt"></i>
-                        </div>
-                        <h4 class="mt-4 mb-2">Snake game</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="#" class="link-custom text-brand">Click here</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="projects p-4 bg-base rounded-4 shadow-effect">
-                    <div class="iconbox rounded-3">
-                        <i class="las la-exchange-alt"></i>
-                    </div>
-                    <h4 class="mt-4 mb-2">Higher lower</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#" class="link-custom text-brand">Click here</a>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="projects p-4 bg-base rounded-4 shadow-effect">
-                <div class="iconbox rounded-3">
-                    <i class="las la-laptop-code"></i>
-                </div>
-                <h4 class="mt-4 mb-2">Web design</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="link-custom text-brand">Click here</a>
-            </div>
         </div>
+
+    </section>
+    <!--//HOME-->
+    <!--PROJECTS-->
+    <section id="services" class="full-height px-lg-5">
+        <div class="container">
+            <div class="row pb-4" data-aos="fade-up"></div>
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h6 class="text-brand">SERVICES</h6>
+                    <h1>Services I provide</h1>
+                </div>
             </div>
-        </section>
-        <!--PROJECTS-->
-    </div>
-    <!--//CONTENT WRAPPER-->
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="projects p-4 bg-base rounded-4 shadow-effect">
+                        <div class="iconbox rounded-3">
+                            <i class="las la-feather"></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Lorem, ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="link-custom text-brand">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="projects p-4 bg-base rounded-4 shadow-effect">
+                        <div class="iconbox rounded-3">
+                            <i class="las la-pencil-ruler"></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Lorem, ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="link-custom text-brand">Read more</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="projects p-4 bg-base rounded-4 shadow-effect">
+                        <div class="iconbox rounded-3">
+                            <i class="las la-laptop-code"></i>
+                        </div>
+                        <h5 class="mt-4 mb-2">Web design</h5>
+                        <p>Crafting performing and delightful experiences.</p>
+                        <a href="#" class="link-custom text-brand">Read more</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--PROJECTS-->
+</div>
+<!--//CONTENT WRAPPER-->
 
 
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/aos.js"></script>
-    <script src="/assets/js/main.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/aos.js"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 
 </html>
