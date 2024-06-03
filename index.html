@@ -323,18 +323,18 @@
         </div>
         <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
           <form action="https://formspree.io/f/xeqybzgy" method="POST" class="row g-lg-3 gy-3">
-            <div class="form-group col-md-6">
-              <input type="text" class="form-control" placeholder="Enter your name" required />
-            </div>
-            <div class="form-group col-md-6">
-              <input type="email" class="form-control" placeholder="Enter your email" required />
-            </div>
-            <div class="form-group col-12">
-              <input type="text" class="form-control" placeholder="Enter subject" required />
-            </div>
-            <div class="form-group col-12">
-              <textarea rows="4" class="form-control" placeholder="Enter your message" required></textarea>
-            </div>
+            <label class="form-group col-md-6">
+              <textarea name="Name"  class="form-control" placeholder="Enter your name" required></textarea>
+            </label>
+            <label class="form-group col-md-6">
+              <textarea type="Email" class="form-control" name="email" placeholder="Enter your email" required></textarea>
+            </label>
+            <label class="form-group col-12">
+              <textarea name="Subject" class="form-control" placeholder="Enter subject" required></textarea>
+            </label>
+            <label class="form-group col-12">
+              <textarea name="Message" rows="4" class="form-control" placeholder="Enter your message" required></textarea>
+            </label>
             <div class="form-group col-12 d-grid">
               <button type="submit" class="btn btn-brand">Contact me</button>
             </div>
