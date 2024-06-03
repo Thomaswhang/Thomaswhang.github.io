@@ -1,15 +1,15 @@
 :root {
     --color-body: #ffffff;
     --color-heading: #ffffff;
-    --color-base: #68b6ff9a;
+    --color-base: #0000009a;
     --color-base2: #3d0303;
-    --color-brand: #c8f2ff;
-    --color-brand2: #0066ff;
+    --color-brand: #f707d7;
+    --color-brand2: #ffb9f6;
     --sidbar-width: 240px;
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 1), rgb(63, 63, 63));
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 0, 157, 0.144));
     color: var(--color-body);
     font-family: sans-serif;
     font-size: 25px;
@@ -24,7 +24,7 @@ h6 {
     color: var(--color-heading);
     font-weight: 700;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(0, 197, 247);
+    -webkit-text-stroke-color: rgb(250, 129, 220);
 }
 
 a {
@@ -88,13 +88,13 @@ img {
 
 /*NAVBAR*/
 .navbar {
-    background-color: var(--color-base);
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 0, 157, 0.144));
 }
 
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
-    color: rgb(0, 162, 255);
+    color: rgb(250, 145, 232);
 }
 
 .navbar .nav-link:hover {
@@ -109,7 +109,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 12, 92, 0.336), rgba(2, 3, 51, 0.048)),
+        background: linear-gradient(rgba(3, 12, 92, 0.336), rgb(245, 23, 160)),
             url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
