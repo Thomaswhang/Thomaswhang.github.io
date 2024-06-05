@@ -331,16 +331,16 @@
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
             <form action="https://formspree.io/f/xeqybzgy" method="POST" class="row g-lg-3 gy-3">
               <label class="form-group col-md-6">
-                <input name="Name" class="form-control" placeholder="Enter your name" required></input>
+                <input name="Name" maxlength="30" class="form-control" placeholder="Enter your name" required></input>
               </label>
               <label class="form-group col-md-6">
-                <input type="Email" class="form-control" name="Email" placeholder="Enter your email" required></input>
+                <input type="Email" maxlength="40" class="form-control" name="Email" placeholder="Enter your email" required></input>
               </label>
               <label class="form-group col-12">
-                <input name="Subject" class="form-control" placeholder="Enter subject" required></input>
+                <input name="Subject" maxlength="30" class="form-control" placeholder="Enter subject" required></input>
               </label>
               <label class="form-group col-12">
-                <textarea name="Message" rows="4" class="form-control" placeholder="Enter your message"
+                <textarea name="Message" maxlength="200" rows="4" class="form-control" placeholder="Enter your message"
                   required></textarea>
               </label>
               <div class="form-group col-12 d-grid">

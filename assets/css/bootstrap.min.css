@@ -105,7 +105,7 @@ img {
 
 /*NAVBAR*/
 .navbar {
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 0, 157, 0.144));
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 0, 157, 1));
 }
 
 .navbar .nav-link {
